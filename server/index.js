@@ -10,6 +10,7 @@ const PORT = process.env.PORT || 5008;
 
 app.use(cors());
 app.use(express.json());
+ 
 
 // Routes
 app.use('/api/countries', countriesRouter);

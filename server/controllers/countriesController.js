@@ -9,6 +9,7 @@ export const getAllCountries = async (req, res) => {
   }
 };
 
+
 export const getCountryByName = async (req, res) => {
   try {
     const { name } = req.params;
